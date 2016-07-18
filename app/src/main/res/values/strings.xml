@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BookShelf</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="forgot_passwd_message">We will send you a link on your registered email to reset your password</string>
+    <string-array name="navigation_drawer_list">
+        <item>Science Fiction</item>
+        <item>Satire</item>
+        <item>Drama</item>
+        <item>Action and Adventure</item>
+        <item>Romance</item>
+        <item>Mystery</item>
+        <item>Horror</item>
+        <item>Self Help</item>
+        <item>Health</item>
+    </string-array>
+
+
+    <string name="drawer_open">Opened</string>
+    <string name="drawer_close">Closed</string>
+
+
+
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorGrey"
+    tools:context="com.example.saunakc.bookshelf.UI.Login.Login"
+    android:weightSum="1">
+
+    <TextView
+        android:includeFontPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorLoginName"
+        android:text="BookShelf"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/et_emailId"
+        android:layout_alignTop="@+id/et_emailId"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="17pt" />
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_bottom_bg"
+        android:hint="    Email Id"
+        android:id="@+id/et_emailId"
+        android:layout_above="@+id/edittext_top_bg"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangular_text_box"
+        android:hint="    Password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/et_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <Button
+        android:id="@+id/bt_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign In"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/green"
+        android:textColor="#f7f2f2"/>
+
+    <TextView
+        android:id="@+id/tv_forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="#999999" />
+
+</LinearLayout>
