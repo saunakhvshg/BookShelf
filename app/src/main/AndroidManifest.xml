@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AppCompat.Light">
         <activity
             android:name=".UI.SplashScreen.MainActivity"
             android:label="@string/title_activity_main"
@@ -28,7 +28,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.saunakc.bookshelf.UI.Login.Login" />
         </activity>
-        <activity android:name=".UI.Home.HomePage"></activity>
+        <activity android:name=".UI.Home.Activity_HomePage"></activity>
     </application>
 
 </manifest>

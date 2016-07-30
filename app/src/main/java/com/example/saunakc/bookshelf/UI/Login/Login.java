@@ -1,6 +1,5 @@
 package com.example.saunakc.bookshelf.UI.Login;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.saunakc.bookshelf.R;
 import com.example.saunakc.bookshelf.UI.ForgotPassword.ForgotPassword;
-import com.example.saunakc.bookshelf.UI.Home.HomePage;
+import com.example.saunakc.bookshelf.UI.Home.Activity_HomePage;
 
 public class
 Login extends AppCompatActivity {
@@ -36,7 +35,7 @@ Login extends AppCompatActivity {
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Login.this, HomePage.class));
+                startActivity(new Intent(Login.this, Activity_HomePage.class));
             }
         });
 
